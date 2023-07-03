@@ -1,0 +1,267 @@
+
+  * {
+    box-sizing: border-box; 
+    scroll-behavior: smooth; 
+  }
+
+.header{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr ;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  width: 100%;
+  height: 90px;
+  /* headerبيانات وعناصر ال  
+  وعنوان الرئيسي 
+  */
+}
+
+.logo{
+width: 100px;
+height: 100px;
+/* id  عنصر ال  */
+
+}
+
+ul { 
+
+  margin: 40px;;
+  margin-left:550px;
+  display: flex;
+  gap: 3rem;
+  /* nave bar تخص ال */ 
+}
+
+
+
+/*  nave bar عناصر ال  */
+.home{
+  
+ /* background-color: aquamarine; */
+  max-width: 50px;
+  height: 20px;
+  margin-top: 50px;
+  color: rgb(144, 207, 255);
+  /* id  عنصر ال  */
+ 
+}
+.Education{
+  margin-top: 50px;
+  color: rgb(255, 255, 255);
+   /* id  عنصر ال  */
+
+}
+.projects{
+  margin-top: 50px;
+  color: rgb(144, 207, 255);
+ /* id  عنصر ال  */
+
+}
+.Experiences{
+  margin-top: 50px;
+  color: rgb(255, 255, 255);
+   /* id  عنصر ال  */
+
+}
+.skills{
+margin-top: 50px;
+color: rgb(144, 207, 255);
+ /* id  عنصر ال  */
+
+}
+.Contactme{
+  width: 50px;
+  margin-top: 50px;
+  color: rgb(255, 255, 255);
+   /* id  عنصر ال  */
+   /* هيك بكون خلصوا العناصر  */
+}
+
+
+
+body{
+  background-color: rgb(0, 0, 0);
+  /*كاملة  pageلون ال */
+}
+
+
+.flex1 {
+  display: flex;
+  /* id  عنصر ال  */
+
+}
+
+.picradis {
+  width: 40%;
+  margin-left: 70px;
+  margin-top: 90px;
+  /* id  عنصر ال  */
+
+}
+
+.main{
+
+  width: 50%;
+  margin-top: 150px;
+  color: #fff;
+  /* id  عنصر ال  */
+
+}
+
+.picbig{
+  height: 500px;
+  width: 500px;
+  border-radius: 50px;
+  /* id  عنصر ال  */
+
+}
+
+.main h2{
+  color:rgb(144, 207, 255) ;
+  /* id  عنصر ال  */
+}
+
+.article {
+  font-family: 'Agdasima', sans-serif;
+  font-size: larger;
+  color: #0a5de3;
+  font-weight: bold;
+  /* id  عنصر ال  */
+
+}
+
+.btn-primary {
+color: #ffffff;
+background-color: rgb(66, 173, 255);
+border-color: rgb(255, 255, 255);
+margin-left: 350px;
+margin-top: -275px;
+width: 200px;
+height: 35px;
+font-size: large;
+/* id  عنصر ال  */
+}
+
+.img{
+background-color:rgb(144, 207, 255);
+margin-bottom: 0;
+height: 500px;
+/* id  عنصر ال  */
+
+}
+
+.flex2{
+
+  background-color:rgb(144, 207, 255);
+  /* id  عنصر ال  */
+
+}
+
+
+.ahmad{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  & div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  & h3{
+    width: 50%;
+ }
+
+
+}
+.one {
+ 
+  width: 150%;
+  /* id  عنصر ال  */
+
+} 
+.two {
+  width: 150%;
+
+  /* id  عنصر ال  */
+} 
+
+h1{
+  text-align: center;
+
+/*  h1 اتاحة خاصيه للعنصر  */
+
+}
+
+
+.Skills{
+background-color:rgb(144, 207, 255);
+
+/* id  عنصر ال  */
+
+}
+
+.ph_2{
+ width:150px;
+ height:150px;
+ display: flex;
+ margin-left: 400px;
+/* id  عنصر ال  */
+
+}
+.contactme{
+  background-color: white;
+  color: black;
+  text-align: center;
+  /* id  عنصر ال  */
+  
+
+}
+ input[type=text], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type=submit] {
+width: 100%;
+background-color:rgb(0, 0, 0);
+color: rgb(144, 207, 255);
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #ffffff;
+}
+
+div.container {
+border-radius: 5px;
+background-color:rgb(144, 207, 255) ;
+padding: 20px;
+}
+
+
+
+#Contactme {
+  display: flex;
+  justify-content: space-around;
+  font-size: 40px;
+  /* class  عنصر ال  */
+}
+
+
+footer {
+  color: #3F2305;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* خصائص نهاية الصفحة */
+}
